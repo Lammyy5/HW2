@@ -36,6 +36,9 @@ ul {
   }
 
   #about {
+    position: relative;
+    text-align: left;
+    margin-top: 10%;
     
     
   }
