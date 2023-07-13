@@ -35,14 +35,15 @@ ul {
     background-color: #111;
   }
 
-  .About {
-    text-align: right;
-    margin: 10%;
-    position: relative;
+  #about {
+    
     
   }
 
- .Me {
-  text-align: left;
-  position: absolute;  
+ #projects {
+  
 }
+
+  #contact{
+
+  }
