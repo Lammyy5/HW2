@@ -45,5 +45,7 @@ ul {
 }
 
   #contact{
+    text-align: justify;
+    position: absolute;
 
   }
