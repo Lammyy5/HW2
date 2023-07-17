@@ -1,54 +1,63 @@
-h1 {
-    color: gray;
-    background-color: darkblue;
-    margin: 2%;
-    position: absolute;
-    top: 0;
-    text-align: left;
-    
+* {
 }
-
 ul {
-    position: fixed;
-    right: 5%;
-    top: 0;
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    
-  }
-  
-  li {
-    float: right;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-
-  li a:hover {
-    background-color: #111;
-  }
-
-  #about {
-    position: relative;
-    text-align: left;
-    margin-top: 10%;
-    
-    
-  }
-
- #projects {
-  
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #333;
+}
+nav {
+  position: absolute;
+  text-align: left;
+  font-size: xx-large;
+  padding: 10px 10px 2px 20px;
+  color: lightgray;
 }
 
-  #contact{
-    text-align: justify;
-    position: absolute;
+li {
+  float: right;
+}
 
-  }
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+img {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  padding: 10px 10px 10px 10px;
+  margin-left: 30%;
+  margin-bottom: 5px;
+  rotate: 90deg;
+}
+
+.topics {
+  padding: 0px 0px 0px 10px;
+  margin-left: 10%;
+  position: relative;
+  border-right: 10px black
+}
+
+p {
+  text-align: center;
+  margin-left: 5%;
+  padding-left: 5%;
+}
+
+.footer {
+  color: white;
+  text-align: center;
+  padding: 10px 10px 2px 20px;
+  text-decoration: underline;
+  background: initial
+}
