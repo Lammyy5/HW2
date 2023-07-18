@@ -1,18 +1,32 @@
-* {
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 5px;
-  overflow: hidden;
-  background-color: #333;
-}
-nav {
+header {
   position: absolute;
   text-align: left;
   font-size: xx-large;
   padding: 10px 10px 2px 20px;
   color: lightgray;
+  background-color: #111;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #111;
+}
+
+nav {
+  background-color: #111;
+}
+
+p {
+  font-size: 15px;
+  text-align: right;
+  margin-left: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  word-wrap:break-word;
+  position: relative;
 }
 
 li {
@@ -28,36 +42,104 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: grey;
 }
+
 
 img {
+  width: 352px;
+  height: 150px;
+
+}
+
+img:hover {
+  background-color: #111;
+  opacity: 1.0;
+
+}
+h2 {
   position: relative;
+  border-left: 5%;
+  
+}
+
+.self {
   width: 250px;
   height: 250px;
-  padding: 10px 10px 10px 10px;
-  margin-left: 30%;
+  padding: pxpx 10px 10px;
+  margin-left: 40%;
   margin-bottom: 5px;
   rotate: 90deg;
+  right: 40px;
+  position: relative;
 }
+
+.project {
+  width: 750px;
+  height: 500px;
+  opacity: 0.5;
+  border: 0px 0px 0px 0px #111 solid;
+}
+
+.projects {
+
+  padding: 0px 0px 0px 0px;
+  border: #111 solid;
+  opacity: .5;
+  left: 15%;
+  position: relative;
+  margin-left: 13%;
+  display: inline;
+
+
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+
 
 .topics {
-  padding: 0px 0px 0px 10px;
+
+  color: rgb(11, 9, 9);
+  padding: 0px 0px 0px 15px;
   margin-left: 10%;
-  position: relative;
-  border-right: 10px black
+  border-right: 10%;
+
 }
 
-p {
-  text-align: center;
-  margin-left: 5%;
-  padding-left: 5%;
+.contact {
+  position: absolute;
+  top: 100%;
 }
+
 
 .footer {
+
   color: white;
-  text-align: center;
-  padding: 10px 10px 2px 20px;
+  text-align: right;
   text-decoration: underline;
-  background: initial
+  background-color: #111;
+  
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    background: #111;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    background-color: #111;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  img {
+    background-color: #111;
+  }
 }
