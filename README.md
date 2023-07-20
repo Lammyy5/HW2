@@ -5,6 +5,7 @@ This is my personal portfolio webpage for later on when
 I start job searching after bootcamp
 
 ## links
+https://lammyy5.github.io/HW2/
 
 ## Code Refrences
 
