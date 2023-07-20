@@ -1,5 +1,5 @@
 # Personal Portfolio
-Will add and fix html and css uploading so assignment isnt missing
+Will add and fix html and css, just uploading so assignment isnt missing
 
 This is my personal portfolio webpage for later on when 
 I start job searching after bootcamp
